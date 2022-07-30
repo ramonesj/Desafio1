@@ -1,0 +1,119 @@
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git status
+En la rama master
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	nuevos archivos: logs/historia.log
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	jose_jose_ramones.html
+
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git commit -m "Realice un commit unicamente con el archivo .gitignore"
+[master 154ac5c] Realice un commit unicamente con el archivo .gitignore
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 logs/historia.log
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git status
+En la rama master
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	jose_jose_ramones.html
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git commit -m "commit unicamente con el archivo jose_jose_ramones.html"
+En la rama master
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	jose_jose_ramones.html
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git add jose_jose_ramones.html
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git commit -m "commit cree el archivo jose_jose_ramones.html"
+[master 3c80f31] commit cree el archivo jose_jose_ramones.html
+ 1 file changed, 44 insertions(+)
+ create mode 100644 jose_jose_ramones.html
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git status
+En la rama master
+nada para hacer commit, el árbol de trabajo está limpio
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git status
+En la rama master
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     jose_jose_ramones.html
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git commit -m "primera respuesta en el archivo jose_jose_ramones.html"
+En la rama master
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     jose_jose_ramones.html
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git status
+En la rama master
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     jose_jose_ramones.html
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git add
+Nada especificado, nada agregado.
+Tal vez quiso decir 'git add .'?
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git add jose_jose_ramones.html
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git status
+En la rama master
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	modificados:     jose_jose_ramones.html
+
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git commit -m "primera respuesta en el archivo jose_jose_ramones.html"
+[master cbb0d2f] primera respuesta en el archivo jose_jose_ramones.html
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git status
+En la rama master
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     jose_jose_ramones.html
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git add jose_jose_ramones.html
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git commit -m "segunda respuesta en el archivo jose_jose_ramones.html"
+[master 25b6f87] segunda respuesta en el archivo jose_jose_ramones.html
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git status
+En la rama master
+nada para hacer commit, el árbol de trabajo está limpio
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git status
+En la rama master
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     jose_jose_ramones.html
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git add jose_jose_ramones.html
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git commit -m "tercera respuesta en el archivo jose_jose_ramones.html"
+[master 9b587bf] tercera respuesta en el archivo jose_jose_ramones.html
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git status
+En la rama master
+nada para hacer commit, el árbol de trabajo está limpio
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git status
+En la rama master
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     jose_jose_ramones.html
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git add jose_jose_ramones.html
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git commit -m "ultima respuesta respuesta en el archivo jose_jose_ramones.html"
+[master c3a28df] ultima respuesta respuesta en el archivo jose_jose_ramones.html
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ git status
+En la rama master
+nada para hacer commit, el árbol de trabajo está limpio
+ramonesj@ramonesj-Inspur-Computer:~/Documentos/Desafio#1/01-tarea$ 
